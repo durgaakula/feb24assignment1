@@ -1,0 +1,17 @@
+n=int(input('enter n:'))
+l=[]
+for i in range(n):
+    x=input().split()
+    l.append(x)
+    
+    c=0
+for i in l:
+    if n%1==0:
+        c=c+1
+print(c)
+
+enter n:3
+2
+3
+4
+3
